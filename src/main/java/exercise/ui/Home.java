@@ -108,7 +108,6 @@ public class Home extends javax.swing.JFrame {
     btnSpecialization3 = new javax.swing.JButton();
     btnSpecialization4 = new javax.swing.JButton();
     btnSpecialization5 = new javax.swing.JButton();
-    btnSpecialization6 = new javax.swing.JButton();
     btnSpecialization7 = new javax.swing.JButton();
     basePanel = new javax.swing.JPanel();
     base = new javax.swing.JPanel();
@@ -226,15 +225,6 @@ public class Home extends javax.swing.JFrame {
     gridBagConstraints.insets = new java.awt.Insets(0, 0, 2, 0);
     jPanel2.add(btnSpecialization5, gridBagConstraints);
 
-    btnSpecialization6.setText("Dev 7");
-    btnSpecialization6.addActionListener(this::btnSpecialization6ActionPerformed);
-    gridBagConstraints = new java.awt.GridBagConstraints();
-    gridBagConstraints.gridx = 0;
-    gridBagConstraints.gridy = 14;
-    gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
-    gridBagConstraints.insets = new java.awt.Insets(0, 0, 2, 0);
-    jPanel2.add(btnSpecialization6, gridBagConstraints);
-
     btnSpecialization7.setText("Dev 8");
     btnSpecialization7.addActionListener(this::btnSpecialization7ActionPerformed);
     gridBagConstraints = new java.awt.GridBagConstraints();
@@ -249,6 +239,8 @@ public class Home extends javax.swing.JFrame {
     getContentPane().add(buttonPanel, java.awt.BorderLayout.LINE_START);
 
     basePanel.setLayout(new java.awt.BorderLayout());
+
+    base.setPreferredSize(new java.awt.Dimension(1760, 1080));
 
     javax.swing.GroupLayout baseLayout = new javax.swing.GroupLayout(base);
     base.setLayout(baseLayout);
@@ -312,10 +304,6 @@ public class Home extends javax.swing.JFrame {
   private void btnSpecialization5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSpecialization5ActionPerformed
     // TODO add your handling code here:
   }//GEN-LAST:event_btnSpecialization5ActionPerformed
-
-  private void btnSpecialization6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSpecialization6ActionPerformed
-    // TODO add your handling code here:
-  }//GEN-LAST:event_btnSpecialization6ActionPerformed
 
   private void btnSpecialization7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSpecialization7ActionPerformed
     // TODO add your handling code here:
@@ -382,7 +370,6 @@ public class Home extends javax.swing.JFrame {
   private javax.swing.JButton btnSpecialization3;
   private javax.swing.JButton btnSpecialization4;
   private javax.swing.JButton btnSpecialization5;
-  private javax.swing.JButton btnSpecialization6;
   private javax.swing.JButton btnSpecialization7;
   private javax.swing.JPanel buttonPanel;
   private javax.swing.JLabel jLabel1;
