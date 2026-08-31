@@ -57,6 +57,8 @@ public class Dev5_LoginForm extends javax.swing.JFrame {
 
         jButton3.setText("Login");
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 340, -1, -1));
+
+        lblBackground.setBackground(new java.awt.Color(204, 204, 255));
         getContentPane().add(lblBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 460));
 
         pack();
