@@ -24,7 +24,11 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <Component id="jPanel1" alignment="0" pref="506" max="32767" attributes="0"/>
+=======
+          <Component id="jPanel1" alignment="0" pref="469" max="32767" attributes="0"/>
+>>>>>>> 2943ea148633d9dc60a23bf4111e3fd5f6d1d701
 =======
           <Component id="jPanel1" alignment="0" pref="442" max="32767" attributes="0"/>
 >>>>>>> 71b2c5bb36c31f4fe85a843fcf41b4fdd4a2a016
