@@ -45,12 +45,8 @@ public class Dev7LoginForm extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI Historic", 1, 14)); // NOI18N
         jLabel1.setText("Dev7 Login_form");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 30, 120, 28));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\icons8-male-user-50.png")); // NOI18N
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 100, 61, 42));
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(157, 108, 140, 26));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\icons8-password-50.png")); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 195, 58, -1));
         jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(154, 214, 143, 31));
 
@@ -64,7 +60,7 @@ public class Dev7LoginForm extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 506, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
